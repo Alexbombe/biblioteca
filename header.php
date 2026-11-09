@@ -27,7 +27,7 @@
         <div class="collapse navbar-collapse" id="mynavbar">
             <ul class="navbar-nav me-auto align-items-center">
                 <li class="nav-item">
-                    <a class="nav-link fs-5 px-2" href="registrar.php">Registrar un libro</a>
+                    <a class="nav-link fs-5 px-2" href="altas.php">Registrar un libro</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link fs-5 px-2" href="consultar.php">Consultar libros</a>
