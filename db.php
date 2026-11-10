@@ -52,8 +52,14 @@
         $extension = pathinfo($archivo_nombre, PATHINFO_EXTENSION);
         $nombre_unico = uniqid('libro_') . '.' . $extension;
         
-        $carpeta_destino = "uploads/";
+        // CORRECCIÓN 1: Apuntar a la carpeta 'portadas/'
+        $carpeta_destino = "portadas/";
         $ruta_servidor = $carpeta_destino . $nombre_unico;
+
+        // CORRECCIÓN 2: Mover físicamente el archivo subido a la carpeta del servidor
+        if (!empty($archivo_temporal)) {
+            move_uploaded_file($archivo_temporal, $ruta_servidor);
+        }
 
         // creamos el INSERT
         $sql = "INSERT INTO libros(id, autor, titulo, publicacion, portada)

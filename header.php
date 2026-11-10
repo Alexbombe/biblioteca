@@ -30,15 +30,9 @@
                     <a class="nav-link fs-5 px-2" href="altas.php">Registrar un libro</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link fs-5 px-2" href="consultar.php">Consultar libros</a>
+                    <a class="nav-link fs-5 px-2" href="consultas.php">Consultar libros</a>
                 </li>
             </ul>
-
-            <!-- Búsqueda -->
-            <form class="d-flex">
-                <input class="form-control me-2" type="text" placeholder="Search">
-                <button class="btn btn-primary" type="button">Search</button>
-            </form>
         </div>
     </div>
 </nav>
