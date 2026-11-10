@@ -48,8 +48,8 @@
                                     <!-- DATOS DEL LIBRO AL LADO -->
                                     <div class="flex-grow-1">
                                         <h3 class="text-white mb-2 fw-bold" style="font-size: 1.5rem;">' . htmlspecialchars($row['titulo']) . '</h3>
-                                        <p class="text-secondary mb-2" style="font-size: 1.1rem;"><strong>Autor:</strong> ' . htmlspecialchars($row['autor']) . '</p>
-                                        <p class="text-light mb-0"><small><strong>Fecha de registro:</strong> ' . $row['publicacion'] . '</small></p>
+                                        <p class="text-light mb-0" style="font-size: 1.1rem;"><strong>Autor:</strong> ' . htmlspecialchars($row['autor']) . '</p>
+                                        <p class="text-light mb-0"><small><strong>Fecha de publicación:</strong> ' . $row['publicacion'] . '</small></p>
                                     </div>
 
                                 </div>
